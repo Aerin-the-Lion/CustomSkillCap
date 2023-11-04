@@ -44,6 +44,7 @@ namespace CustomSkillCap
         {
             LoadConfig();
             Harmony.CreateAndPatchAll(typeof(SkillCapMod));
+            Harmony.CreateAndPatchAll(typeof(SkillCapMod_Menu_NewGameCEO));
 
         }
 

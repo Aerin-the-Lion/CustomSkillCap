@@ -217,8 +217,6 @@ namespace CustomSkillCap
                     //Debug.Log("-------------------------------------");
                     found = true;
                 }
-
-
             }
             if (found is false)
                 throw new ArgumentException("Cannot find Explained Number!");
